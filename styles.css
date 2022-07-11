@@ -1,0 +1,38 @@
+body {
+  background: rgb(255, 255, 255);
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid rgb(11, 19, 121);
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: rgb(218, 193, 7);
+}
+
+a:visited {
+	color: rgb(218, 193, 7);
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}

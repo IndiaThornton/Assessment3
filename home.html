@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<h1>Welcome to this little website.</h1>
+		<p>Hello World</p>
+
+		<img src="https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg" id=" Kitties">
+		<p id="welcome"></p>
+<div onmousemove="alert('Hey you are great!')">
+    onmousemove: <br> <span id="demo"></span>
+</div>
+   		<p>Welcome to the website! I hope this is a good experience for you!  </p>
+
+		<ul>
+			<li>You are very smart.</li>
+			<li>You look good today.</li>
+			<li>Dont worry you are doing well.</li>
+			<li>Keep up the good work!</li>
+		</ul>
+
+		<h2>Contact Us</h2>
+		<form id="contact">
+			Your name:
+			<input type="text">
+
+			Message:
+			<input type="textarea">
+
+			
+			<p>How did you hear about this website?</p>
+            <input type="checkbox" id="Site1" name="Site1" value="Facebook">
+			<label for="Site1"> Facebook </label>
+			<input type="checkbox" id="Site2" name="Site2" value="Instagram">
+			<label for="Site2"> Instagram</label>
+			<input type="checkbox" id="Site3" name="Site3" value="Google">
+			<label for=" Site3"> Google </label> <br>
+			<input type="checkbox" id="Site4" name="Site4" value="Friend">
+			<label for="Site4"> Friend</label>
+			<input type="checkbox" id="Site5" name="Site5" value="Other">
+			<label for=" Site5"> Other </label> <br>
+			
+
+			<button id="submit">Submit</button>
+			<script>document.getElementById("submit").addEventListener("click",function(){
+				alert("Submitted Successfully");
+			});</script>
+
+			
+		</form>
+
+	</content>
+
+
+	<script src="about.js"></script>
+<script src="home.js"></script>
+</body>
+</html>
